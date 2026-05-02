@@ -1,7 +1,7 @@
  import { useState, useEffect } from "react"; 
 
 const clientId = "3MVG97L7PWbPq6UxbermXaF46rSHhZglCFjA0fJxc6_5BIJDw7lM_000dgNljeQGpMzJLOoWXksGQfppH7IsX";
-const redirectUri = "https://salesforce-app-eight.vercel.app/";
+const redirectUri = "https://salesforce-app-eight.vercel.app/callback";
 
 // 🔐 LOGIN
 const loginToSalesforce = () => {
